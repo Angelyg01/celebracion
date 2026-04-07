@@ -71,7 +71,7 @@ function getURLParam(name) {
 function showDedicationText() { //seguidores
   let text = getURLParam('text');
   if (!text) {
-  text = `Para Anahisita: \n\nBueno, primeramente deseándole un FELIZ CUMPLEAÑOS, que en este día tan especial sea rodeada de alegría, tranquilidad y momentos que le recuerden lo valiosa que es, hoy cumple 19 años un año más de vida, más experiencias, más aprendizajes… y cada vez más cerca de los 20’s,\ny si en algún momento pensó que yo iba a olvidar esta fecha, déjeme decirle que estaba completamente equivocada, porque hay fechas que no se olvidan cuando la persona importa de verdad,\n\nEspero que este nuevo año le traiga metas cumplidas, sueños alcanzados y muchas razones para sonreír. `;  } else {
+  text = `Para Lisbeth Carolina: \n\nBueno, primeramente deseándole un FELIZ CUMPLEAÑOS, que en este día tan especial sea rodeada de alegría, tranquilidad y momentos que le recuerden lo valiosa que es, hoy cumple 20 añitos, que vengan más experiencias, más aprendizajes\ny si en algún momento pensó que yo iba a olvidar esta fecha, déjeme decirle que estaba completamente equivocada, aunque un poco tarde pero dicen que es mejor tarde que nunca, no?,\n\nEspero que este nuevo año le traiga metas cumplidas, sueños alcanzados y muchas razones para sonreír. `;  } else {
     text = decodeURIComponent(text).replace(/\\n/g, '\n');
   }
   const container = document.getElementById('dedication-text');
